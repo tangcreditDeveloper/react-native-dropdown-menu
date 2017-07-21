@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-dropdown-menu@https://github.com/mataoct/react-native-dropdown-menu",
+        "scope": null,
+        "escapedName": "react-native-dropdown-menu",
+        "name": "react-native-dropdown-menu",
+        "rawSpec": "https://github.com/mataoct/react-native-dropdown-menu",
+        "spec": "git+https://github.com/mataoct/react-native-dropdown-menu.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:mataoct/react-native-dropdown-menu.git",
+          "sshUrl": "git+ssh://git@github.com/mataoct/react-native-dropdown-menu.git",
+          "httpsUrl": "git+https://github.com/mataoct/react-native-dropdown-menu.git",
+          "gitUrl": "git://github.com/mataoct/react-native-dropdown-menu.git",
+          "shortcut": "github:mataoct/react-native-dropdown-menu",
+          "directUrl": "https://raw.githubusercontent.com/mataoct/react-native-dropdown-menu/master/package.json"
+        }
+      },
+      "/Users/cherry/Desktop/HaiNongBao"
+    ]
+  ],
+  "_from": "git+https://github.com/mataoct/react-native-dropdown-menu.git",
+  "_id": "react-native-dropdown-menu@1.1.4",
+  "_inCache": true,
+  "_location": "/react-native-dropdown-menu",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-dropdown-menu@https://github.com/mataoct/react-native-dropdown-menu",
+    "scope": null,
+    "escapedName": "react-native-dropdown-menu",
+    "name": "react-native-dropdown-menu",
+    "rawSpec": "https://github.com/mataoct/react-native-dropdown-menu",
+    "spec": "git+https://github.com/mataoct/react-native-dropdown-menu.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:mataoct/react-native-dropdown-menu.git",
+      "sshUrl": "git+ssh://git@github.com/mataoct/react-native-dropdown-menu.git",
+      "httpsUrl": "git+https://github.com/mataoct/react-native-dropdown-menu.git",
+      "gitUrl": "git://github.com/mataoct/react-native-dropdown-menu.git",
+      "shortcut": "github:mataoct/react-native-dropdown-menu",
+      "directUrl": "https://raw.githubusercontent.com/mataoct/react-native-dropdown-menu/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/mataoct/react-native-dropdown-menu.git#1440b91ff61d925c90f3ebd9443dfb2e586fa547",
+  "_shasum": "c216517cc02cc1dd3db78806b5d64ac982fed78f",
+  "_shrinkwrap": null,
+  "_spec": "react-native-dropdown-menu@https://github.com/mataoct/react-native-dropdown-menu",
+  "_where": "/Users/cherry/Desktop/HaiNongBao",
+  "author": {
+    "name": "WheelerLee"
+  },
+  "bugs": {
+    "url": "https://github.com/WheelerLee/react-native-dropdown-menu/issues"
+  },
+  "dependencies": {},
+  "description": "Dorpdown menu for react native",
+  "devDependencies": {},
+  "gitHead": "1440b91ff61d925c90f3ebd9443dfb2e586fa547",
+  "homepage": "https://github.com/WheelerLee/react-native-dropdown-menu#readme",
+  "keywords": [
+    "react",
+    "native",
+    "dropdown",
+    "menu"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-dropdown-menu",
+  "optionalDependencies": {},
+  "readme": "# react-native-dropdown-menu\n\nA `<DropdownMenu>` component for react-native.It is very easy to use.\n\n ![image](https://github.com/WheelerLee/react-native-dropdown-menu/blob/master/screenshot.gif?raw=true)\n\n## Install\n```shell\nnpm i --save react-native-dropdown-menu@https://github.com/mataoct/react-native-dropdown-menu\n```\nor\n```shell\nyarn add react-native-dropdown-menu@https://github.com/mataoct/react-native-dropdown-menu\n```\n\n## Usage\n```js\nimport DropdownMenu from 'react-native-dropdown-menu';\n\nvar Demo = React.createClass({\n\n  render() {\n    var data = [[\"C\", \"Java\", \"JavaScript\"], [\"Python\", \"Ruby\"], [\"Swift\", \"Objective-C\"]];\n    return (\n      <View style={{flex: 1}} >\n        <DropdownMenu style={{flex: 1}}\n          arrowImg={require('./img/arrow.png')}      //set the arrow icon, default is a triangle\n          checkImage={require('./img/check.png')}    //set the icon of the selected item, default is a check mark\n          bgColor={\"red\"}                            //the background color of the head, default is grey\n          tintColor={\"white\"}                        //the text color of the head, default is white\n          selectItemColor={\"red\"}                    //the text color of the selected item, default is red\n          data={data}                                \n          maxHeight={410}                            // the max height of the menu\n          handler={(selection, row) => alert(data[selection][row])} >\n\n          <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}} >\n            <Text>\n              Your own view Here\n            </Text>\n          </View>\n\n        </DropdownMenu>\n      </View>\n    );\n  }\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WheelerLee/react-native-dropdown-menu.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.4"
+}
