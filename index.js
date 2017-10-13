@@ -205,7 +205,7 @@ var isSec = true;
                 style={{flex: 1, height: 40, alignItems: "center", justifyContent: "center"}} >
                 <View style={{flexDirection: 'row', alignItems: "center", justifyContent: "center"}} >
                   <View style={{flexGrow:1,height:13}}></View>
-                  <Text style={{color: this.props.tintColor ? this.props.tintColor : this.defaultConfig.tintColor, fontSize: 13}} >{this._getTit(rows,index) }</Text>
+                  <Text style={[{color: this.props.tintColor ? this.props.tintColor : this.defaultConfig.tintColor, fontSize:13,},this.props.fontStyle?this.props.fontStyle:null]} >{this._getTit(rows,index) }</Text>
                   {this.renderDropDownArrow(index)}
                   <View style={{flexGrow:1,height:13,borderRightWidth:0.5,borderRightColor:'#ebebeb'}}></View>
                 </View>

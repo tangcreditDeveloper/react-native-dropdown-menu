@@ -20,40 +20,60 @@
         }
       },
       "/Users/cherry/Desktop/HaiNongBao"
+    ],
+    [
+      {
+        "raw": "react-native-dropdown-menu@git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+        "scope": null,
+        "escapedName": "react-native-dropdown-menu",
+        "name": "react-native-dropdown-menu",
+        "rawSpec": "git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+        "spec": "git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:tangcreditDeveloper/react-native-dropdown-menu.git",
+          "sshUrl": "git+ssh://git@github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+          "httpsUrl": "git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+          "gitUrl": "git://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+          "shortcut": "github:tangcreditDeveloper/react-native-dropdown-menu",
+          "directUrl": "https://raw.githubusercontent.com/tangcreditDeveloper/react-native-dropdown-menu/master/package.json"
+        }
+      },
+      "/Users/cherry/Desktop/tangchain"
     ]
   ],
-  "_from": "git+https://github.com/mataoct/react-native-dropdown-menu.git",
+  "_from": "git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
   "_id": "react-native-dropdown-menu@1.1.4",
   "_inCache": true,
   "_location": "/react-native-dropdown-menu",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-native-dropdown-menu@https://github.com/mataoct/react-native-dropdown-menu",
+    "raw": "react-native-dropdown-menu@git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
     "scope": null,
     "escapedName": "react-native-dropdown-menu",
     "name": "react-native-dropdown-menu",
-    "rawSpec": "https://github.com/mataoct/react-native-dropdown-menu",
-    "spec": "git+https://github.com/mataoct/react-native-dropdown-menu.git",
+    "rawSpec": "git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+    "spec": "git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
     "type": "hosted",
     "hosted": {
       "type": "github",
-      "ssh": "git@github.com:mataoct/react-native-dropdown-menu.git",
-      "sshUrl": "git+ssh://git@github.com/mataoct/react-native-dropdown-menu.git",
-      "httpsUrl": "git+https://github.com/mataoct/react-native-dropdown-menu.git",
-      "gitUrl": "git://github.com/mataoct/react-native-dropdown-menu.git",
-      "shortcut": "github:mataoct/react-native-dropdown-menu",
-      "directUrl": "https://raw.githubusercontent.com/mataoct/react-native-dropdown-menu/master/package.json"
+      "ssh": "git@github.com:tangcreditDeveloper/react-native-dropdown-menu.git",
+      "sshUrl": "git+ssh://git@github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+      "httpsUrl": "git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+      "gitUrl": "git://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+      "shortcut": "github:tangcreditDeveloper/react-native-dropdown-menu",
+      "directUrl": "https://raw.githubusercontent.com/tangcreditDeveloper/react-native-dropdown-menu/master/package.json"
     }
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/mataoct/react-native-dropdown-menu.git#1440b91ff61d925c90f3ebd9443dfb2e586fa547",
-  "_shasum": "c216517cc02cc1dd3db78806b5d64ac982fed78f",
+  "_resolved": "git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git#e5211a626cccd3dede26f487268dbef228532445",
+  "_shasum": "2f2ecd170f4ccc1921995c6ffc3fa5b877c649ec",
   "_shrinkwrap": null,
-  "_spec": "react-native-dropdown-menu@https://github.com/mataoct/react-native-dropdown-menu",
-  "_where": "/Users/cherry/Desktop/HaiNongBao",
+  "_spec": "react-native-dropdown-menu@git+https://github.com/tangcreditDeveloper/react-native-dropdown-menu.git",
+  "_where": "/Users/cherry/Desktop/tangchain",
   "author": {
     "name": "WheelerLee"
   },
