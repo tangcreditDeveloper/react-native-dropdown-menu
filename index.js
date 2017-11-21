@@ -189,6 +189,16 @@ var isSec = true;
    	};
      return  rows[this.state.selectIndex[index]];
    }
+
+  _titContent(rows,index){
+  var  titText  =  this._getTit(rows,index);
+  titText = titText?titText:'';
+    return(
+      <Text style={[{color: this.props.tintColor ? this.props.tintColor : this.defaultConfig.tintColor,},this.props.fontStyle?this.props.fontStyle:null,titText.length>8?{fontSize:10}:{fontSize:13}]} numberOfLines ={2} >{ titText}</Text>
+    );
+
+  }
+
   render() {
 
     return (
@@ -197,15 +207,15 @@ var isSec = true;
 
           {
             this.props.data.map((rows, index) =>
-            	
+
               <TouchableOpacity
                 activeOpacity={1}
                 onPress={this.openOrClosePanel.bind(this, index)}
                 key={index}
-                style={{flex: 1, height: 40, alignItems: "center", justifyContent: "center"}} >
+                style={{flex: 1, height: 40, alignItems: "center", justifyContent: "center",marginLeft:10,marginRight:10}} >
                 <View style={{flexDirection: 'row', alignItems: "center", justifyContent: "center"}} >
                   <View style={{flexGrow:1,height:13}}></View>
-                  <Text style={[{color: this.props.tintColor ? this.props.tintColor : this.defaultConfig.tintColor, fontSize:13,},this.props.fontStyle?this.props.fontStyle:null]} >{this._getTit(rows,index) }</Text>
+                  {this._titContent(rows,index)}
                   {this.renderDropDownArrow(index)}
                   <View style={{flexGrow:1,height:13,borderRightWidth:0.5,borderRightColor:'#ebebeb'}}></View>
                 </View>
@@ -214,13 +224,10 @@ var isSec = true;
           }
         </View>
         {this.props.children}
-
         {this.renderActivityPanel()}
-
       </View>
     );
   }
-
 }
 
 // this.defaultConfig = {
