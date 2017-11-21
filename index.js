@@ -174,20 +174,15 @@ var isSec = true;
   }
 
    _getTit(rows,index){
-   
-   	if (index==0) {
-	    if (isFirst) {
-	    	
-	        return  this.props.dafaultTitle[index];
-	     };
-	   
-   	}else{
-        if (isSec) {
-                
-            return  this.props.dafaultTitle[index];
-	     };
-   	};
-     return  rows[this.state.selectIndex[index]];
+
+      var  text ;
+
+      if (this.state.selectIndex[index]>0) {
+           text =   rows[this.state.selectIndex[index]];
+      }else{
+           text  =this.props.dafaultTitle[index];
+      }
+      return text ;
    }
 
   _titContent(rows,index){
